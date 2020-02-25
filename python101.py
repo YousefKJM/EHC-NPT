@@ -85,6 +85,13 @@ print(squre_root(64))
 print('\n') #new line
 
 #Boolean expression (True or false)
+print("Boolean expression:")
+bool1 = True
+bool2 = 3*3 == 9
+bool3 = False
+bool4 = 3*3 != 9
 
+print(bool1, bool2, bool3, bool4)
+print(type(bool1))
 
 
