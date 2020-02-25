@@ -81,3 +81,10 @@ def squre_root(x):
 	return x ** .5
 
 print(squre_root(64))
+
+print('\n') #new line
+
+#Boolean expression (True or false)
+
+
+
