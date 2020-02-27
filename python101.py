@@ -142,7 +142,7 @@ print('\n') #new line
 print("Lists have brackets:")
 fruit = ["Apple", "Orange", "Blue", "Green"]
 print(fruit[0])
-
 print(fruit[0:3])
+print(fruit[1:])
 
 
