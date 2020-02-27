@@ -94,4 +94,6 @@ bool4 = 3*3 != 9
 print(bool1, bool2, bool3, bool4)
 print(type(bool1))
 
+bool5 = "True"
+print(type(bool5))
 
