@@ -148,4 +148,6 @@ print(fruit[:1])
 print(fruit[-1])
 print(len(fruit))
 
+fruit.append("Yellow")
+print(fruit)
 
