@@ -102,5 +102,10 @@ greater_than = 7 > 5
 less_than = 5 < 7
 greater_than_equal_to = 7 >= 7
 less_than_equal_to = 7 <= 7
-
 print(greater_than, less_than, greater_than_equal_to, less_than_equal_to)
+
+test_and = (7 > 5) and (6 < 7)
+test_or = (7 > 5) or (5 < 7)
+test_not = not True
+print(test_and, test_or, test_not)
+
