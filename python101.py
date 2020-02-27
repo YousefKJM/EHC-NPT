@@ -121,4 +121,18 @@ def soda(money):
 print(soda(3))
 print(soda(1))
 
+def smoking(age,money):
+	if(age >= 21) and (money >= 5):
+		return "We're gettin tipsy!"
+	elif (age >= 21) and (money < 5):
+		return "Come back with more money"
+	elif (age < 21) and (money >= 5):
+		return "Nice try, kid."
+	else:
+		return "You're too poor and too young"
+
+print(smoking(21, 5))
+print(smoking(21, 4))
+print(smoking(20, 5)) 
+print(smoking(20, 4))
 
