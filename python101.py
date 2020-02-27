@@ -109,3 +109,16 @@ test_or = (7 > 5) or (5 < 7)
 test_not = not True
 print(test_and, test_or, test_not)
 
+print('\n') #new line
+
+#Conditional Statements
+print("Conditional Statements:")
+def soda(money):
+	if money >= 2:
+		return "You've got yourself a soda!"
+	else: 
+		return "No soda for you!"
+print(soda(3))
+print(soda(1))
+
+
