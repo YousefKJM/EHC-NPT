@@ -162,3 +162,10 @@ person = ["Yousef", "Jake", "Ahmed", "Khalid"]
 combined = zip(fruit, person)
 print(list(combined))
 
+fruit = ["Apple", "Orange", "Blue", "Green"]
+person = ["Yousef", "Jake", "Ahmed"]
+combined = zip(fruit, person)
+print(list(combined))
+
+
+
