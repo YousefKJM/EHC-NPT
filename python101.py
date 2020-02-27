@@ -167,5 +167,8 @@ person = ["Yousef", "Jake", "Ahmed"]
 combined = zip(fruit, person)
 print(list(combined))
 
-
+#Tuples
+print("Tuples have parentheses and cannot change")
+grades = ("A", "B", "C", "D", "F")
+print(grades[1])
 
