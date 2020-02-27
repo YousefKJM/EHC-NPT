@@ -151,3 +151,6 @@ print(len(fruit))
 fruit.append("Yellow")
 print(fruit)
 
+fruit.pop()
+print(fruit)
+
