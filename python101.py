@@ -181,5 +181,10 @@ print("For loops - start to finish of iterate:")
 vegs = ["cucumber", "spinach", "carrot"]
 for x in vegs:
 	print(x)
- 
+
+print("While loops - execute as long as True:")
+i = 1
+while i < 10:
+	print(i)
+	i +=1 
 
