@@ -157,3 +157,8 @@ print(fruit)
 fruit.pop(1)
 print(fruit)
 
+fruit = ["Apple", "Orange", "Blue", "Green"]
+person = ["Yousef", "Jake", "Ahmed", "Khalid"]
+combined = zip(fruit, person)
+print(list(combined))
+
