@@ -136,3 +136,11 @@ print(smoking(21, 4))
 print(smoking(20, 5)) 
 print(smoking(20, 4))
 
+print('\n') #new line
+
+#Lists
+print("Lists have brackets:")
+fruit = ["Apple", "Orange", "Blue", "Green"]
+
+print(fruit[1])
+
