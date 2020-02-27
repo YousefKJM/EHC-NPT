@@ -167,8 +167,19 @@ person = ["Yousef", "Jake", "Ahmed"]
 combined = zip(fruit, person)
 print(list(combined))
 
+print('\n') #new line
+
 #Tuples
 print("Tuples have parentheses and cannot change")
 grades = ("A", "B", "C", "D", "F")
 print(grades[1])
+
+print('\n') #new line
+
+#Looping
+print("For loops - start to finish of iterate:")
+vegs = ["cucumber", "spinach", "carrot"]
+for x in vegs:
+	print(x)
+ 
 
