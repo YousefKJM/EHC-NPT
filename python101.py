@@ -154,3 +154,6 @@ print(fruit)
 fruit.pop()
 print(fruit)
 
+fruit.pop(1)
+print(fruit)
+
