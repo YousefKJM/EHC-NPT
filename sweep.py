@@ -34,5 +34,8 @@ def parse_arguments():
 
 	if " " in args.filename:
 		parser.error("This cannot be whitespaces in the filename")
-	return args.subnet, args.filename		
+	return args.subnet, args.filename
+
+if __name__ == '__main__':
+	main(*parse_arguments())		
 
