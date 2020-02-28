@@ -26,4 +26,7 @@ def parse_arguments():
 					 epilog = "python ipscanner.py 192.168.1 -f somefile.txt")
 	parser.add_argument('subnet', type=str, help='the subnet you want to ping')
 	parser.add_argument('-f', '--filename', type=str, help='The filename')
-	arg
+	args = parser.parse_args()
+	
+	if
+
