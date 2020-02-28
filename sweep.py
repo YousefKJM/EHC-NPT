@@ -28,5 +28,11 @@ def parse_arguments():
 	parser.add_argument('-f', '--filename', type=str, help='The filename')
 	args = parser.parse_args()
 	
-	if
+	if not re.match(r"(\d{1,3}\.\d{1,3}\.\d{1,3})", args.subnet) \
+	   or any(a not in range(1,255) for a in map(int, args.subnet.split("."))):
+		parser.error("This is not a valid subnet")		
+
+	if " " in args.filename:
+		parser.error("This cannot be whitespaces in the filename")
+	return args.subnet, args.filename		
 
