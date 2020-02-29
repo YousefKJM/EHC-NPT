@@ -16,3 +16,9 @@ def new_line():
 
 new_line()
 
+#Advanced Strings
+print("Advanced strings:")
+my_name = "Yousef"
+print(my_name[0]) #first initial
+print(my_name[-1]) #last letter
+
