@@ -22,3 +22,7 @@ my_name = "Yousef"
 print(my_name[0]) #first initial
 print(my_name[-1]) #last letter
 
+sentence = "This is a sentence"
+
+print(sentence[:4]) #first word
+print(sentence[-9:-1]) #last word
