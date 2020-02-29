@@ -74,4 +74,5 @@ print(meals)
 employees = {"Finance": ["Bob", "Linda", "Tina"], "IT": ["Yousef", "Gene", "Teddy"], "HR":["Jimmy Jr.", "Mort"]}
 print(employees)
 
-employees['Legel'] = 
+employees['Legel'] = ["Mr. Frond"] #add new key: value pair
+print(employees)
