@@ -30,5 +30,7 @@ print(sentence[-9:-1]) #last word
 print(sentence.split()) #split sentence by delimiter (space)
 
 sentence_split = sentence.split()
+sentence_join = ' '.join(sentence_split)
+print('\n'.join(sentence_split))
 
 
