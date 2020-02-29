@@ -50,3 +50,8 @@ print((letter.lower() in word.lower()) and not (letter.lower() in word_two.lower
 
 too_much_space = "                  hello                      "
 print(too_much_space.strip())
+
+full_name = "yoef Majeed"
+print(full_name.replace("yoef","Yousef"))
+print(full_name.find("Majeed"))
+
