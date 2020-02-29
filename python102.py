@@ -45,6 +45,7 @@ letter = "a"
 word = "Apple"
 print(letter.lower() in word.lower()) #Improved - case insensitive
 
-
+word_two = "Bingo"
+print((letter.lower() in word.lower()) and not (letter.lower() in word_two.lower()))
 
 
