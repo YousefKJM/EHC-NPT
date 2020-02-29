@@ -20,3 +20,6 @@ Five Phases of Hacking:
 		-
 	05 - Covering Track
 		-auto cover your tracks (removing logs for example)
+
+Passive Recon:
+	
