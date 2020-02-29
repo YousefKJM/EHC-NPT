@@ -40,3 +40,8 @@ print('\n'.join(sentence_split))
 quoteception = "I said, \"give me all the money\""
 print(quoteception)
 
+print("A" in "Apple") #it is boolean --> return True
+letter = "A"
+word = "Apple"
+
+
