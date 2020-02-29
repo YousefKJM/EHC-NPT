@@ -26,3 +26,9 @@ sentence = "This is a sentence."
 
 print(sentence[:4]) #first word
 print(sentence[-9:-1]) #last word
+
+print(sentence.split()) #split sentence by delimiter (space)
+
+sentence_split = sentence.split()
+
+
