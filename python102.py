@@ -76,3 +76,10 @@ print(employees)
 
 employees['Legel'] = ["Mr. Frond"] #add new key: value pair
 print(employees)
+
+employees.update({"Sales": ["Ali", "Ollie"]})
+print(employees)
+
+meals['burger'] = 8
+print(meals)
+
