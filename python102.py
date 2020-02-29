@@ -8,4 +8,5 @@ import sys #system functions and parameters
 from datetime import datetime
 print(datetime.now())
 
-print("Stop here")
+from datetime import datetime as dt #import with an alias
+print(dt.now())
