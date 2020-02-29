@@ -1,0 +1,22 @@
+Part 4: Passive OSINT
+
+Five Phases of Hacking 
+Passive Recon
+Q&A / AMA
+
+*Note: please stay ethical :)
+
+Five Phases of Hacking:
+	01 - Reconnaissance (*Passive vs Active)
+		-typically Information gathering 
+		-passive: when do info gathering doesn't involve client or entity itself
+		-active: considerd as level-2 or scanning phase
+	02 - Scanning and Enumeration (*Nmap, Nessus, Nikto, etc.)
+		-the more enumeration you do the better of you are
+		-Hacking is all enumeration
+	03 - Gaining Access
+		-find the way through social engineering or etc.
+	04 - Maintaining Access
+		-
+	05 - Covering Track
+		-auto cover your tracks (removing logs for example)
