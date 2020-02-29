@@ -83,3 +83,8 @@ print(employees)
 meals['burger'] = 8
 print(meals)
 
+print(meals.get("burger"))
+print(meals.get("nodelz"))
+
+print(meals["burger"])
+
