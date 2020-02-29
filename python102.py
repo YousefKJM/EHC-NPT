@@ -53,5 +53,6 @@ print(too_much_space.strip())
 
 full_name = "yoef Majeed"
 print(full_name.replace("yoef","Yousef"))
+
 print(full_name.find("Majeed"))
 
