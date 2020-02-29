@@ -31,6 +31,7 @@ print(sentence.split()) #split sentence by delimiter (space)
 
 sentence_split = sentence.split()
 sentence_join = ' '.join(sentence_split)
+print(sentence_join)
 print('\n'.join(sentence_split))
 
 
