@@ -58,3 +58,8 @@ print(full_name.find("Majeed"))
 car = "Mazda"
 print("My favourite car is {}.".format(car))
 
+def favourite_book(title, author):
+	fav = "My favourite book is \"{}\". which is written by {}".format(title, author)
+	return fav
+
+print(favourite_book("The Great Gatsby", "F. Scott Fitz"))
