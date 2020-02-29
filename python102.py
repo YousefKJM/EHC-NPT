@@ -63,3 +63,10 @@ def favourite_book(title, author):
 	return fav
 
 print(favourite_book("The Great Gatsby", "F. Scott Fitz"))
+
+new_line()
+
+#Dictionaries
+print("Dictionaries are keys and values:")
+meals = {"burger": 7, "pizza": 10, "falafel": 8, "shawerma": 6} #meal is key, price is value
+print(meals)
