@@ -43,7 +43,7 @@ print(quoteception)
 print("A" in "Apple") #it is boolean --> return True
 letter = "a"
 word = "Apple"
-print(letter in word)
+print(letter.lower() in word.lower()) #Improved - case insensitive
 
 
 
