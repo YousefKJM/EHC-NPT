@@ -95,3 +95,14 @@ combined = zip(language, person)
 language_dictionary = {key: value for key, value in combined}
 print(language_dictionary)
 
+#To host a folder simply using your ip address with python just write the following:
+#using http server
+# 'python -m SimpleHTTPServer 80' --> this is python 2
+# 'python3 -m http.server 80' --> this is python 3 
+
+#using ftp server
+# 'pip install pyftpdlib'
+# 'python -m pyftpdlib -p 21 w'
+# you access folder files now by writing in browser 'ftp://your-ip-addr'
+  
+
