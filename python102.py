@@ -70,3 +70,8 @@ new_line()
 print("Dictionaries are keys and values:")
 meals = {"burger": 7, "pizza": 10, "falafel": 8, "shawerma": 6} #meal is key, price is value
 print(meals)
+
+employees = {"Finance": ["Bob", "Linda", "Tina"], "IT": ["Yousef", "Gene", "Teddy"], "HR":["Jimmy Jr.", "Mort"]}
+print(employees)
+
+employees['Legel'] = 
