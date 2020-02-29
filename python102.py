@@ -88,3 +88,10 @@ print(meals.get("nodelz"))
 
 print(meals["burger"])
 
+#List and dictionaries
+language = ["Java", "C", "Python", "PHP"]
+person = ["Khalid", "Ali", "Yousef", "Abduo"]
+combined = zip(language, person)
+language_dictionary = {key: value for key, value in combined}
+print(language_dictionary)
+
