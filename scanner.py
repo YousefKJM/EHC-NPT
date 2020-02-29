@@ -12,3 +12,4 @@ else:
 	print("Syntax: python3 scanner.py <ip>")
 	sys.exit()	
 
+#Add a pretty banner
