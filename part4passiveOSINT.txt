@@ -20,7 +20,7 @@ Five Phases of Hacking:
 		-
 	05 - Covering Track
 		-auto cover your tracks (removing logs for example)
-
+----------------------------------------------------------------------------------
 Passive Recon - Physical / Social:
 	- Location Information:
 		- Satellite images
@@ -30,7 +30,11 @@ Passive Recon - Physical / Social:
 		- Employees (name, job title, phone number, etc)
 		- Pictures (badge photos, desk photos, computer photos, etc)
 Passive Recon - Web / Host:
-	- Target Va
+	- Target Validation: 'whois' 'nslookup' 'dnsrecon'
+	- Finding Subdomains: Google Fu, dig, Nmap, Sublist3r, Bluto, crt.sh, etc.
+	- Fingerprinting: Nmap, Wappalyzer, WhatWeb, BuiltWith, Netcat
+	- Data Breaches: HaveIBeenPwned and similar lists
+
 	
  	
 	
