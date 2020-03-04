@@ -15,11 +15,22 @@ Five Phases of Hacking:
 		-the more enumeration you do the better of you are
 		-Hacking is all enumeration
 	03 - Gaining Access
-		-find the way through social engineering or etc.
+		-find the way through some sort of explict, social engineering, etc.
 	04 - Maintaining Access
 		-
 	05 - Covering Track
 		-auto cover your tracks (removing logs for example)
 
-Passive Recon:
+Passive Recon - Physical / Social:
+	- Location Information:
+		- Satellite images
+		- Drone recon
+		- Building layout (badge readers, break areas, security, etc)
+	- Job Information:
+		- Employees (name, job title, phone number, etc)
+		- Pictures (badge photos, desk photos, computer photos, etc)
+Passive Recon - Web / Host:
+	- Target Va
+	
+ 	
 	
