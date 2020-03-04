@@ -34,6 +34,7 @@ Passive Recon - Web / Host:
 	- Finding Subdomains: Google Fu, dig, Nmap, Sublist3r, Bluto, crt.sh, etc.
 	- Fingerprinting: Nmap, Wappalyzer, WhatWeb, BuiltWith, Netcat
 	- Data Breaches: HaveIBeenPwned and similar lists
+----------------------------------------------------------------------------------
 
 	
  	
