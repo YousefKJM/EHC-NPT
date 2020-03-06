@@ -19,4 +19,14 @@ else
 	total_Files=$(find /opt/breach-parse/BreachCompilation/data -type f | wc -l)
 	file_Count=0
 
-	
+	function ProgressBar {
+		
+		let _progress=(${file_Count}*100/${total_Files}*100)/100
+		let _done=(${_progress}*4)/10
+		let _left=40-$_done
+	 	
+		_fill=$(printf "%${_done}s")
+		_empty=$(printf "%${_left}s")
+		
+		printf "\rProgress : [${_fill// /\#}${_empty// //-}] ${_progress}%%"
+	}
