@@ -39,3 +39,13 @@ else
 		ProgressBar ${number} ${total_Files}
 	done
 fi
+
+sleep 3
+
+awk -F':' '{print $1}' $master > $users
+
+sleep 1
+
+awk -F':' '{print $2}' $master > $passwords
+echo 
+exit 0
