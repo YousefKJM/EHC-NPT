@@ -30,3 +30,12 @@ else
 		
 		printf "\rProgress : [${_fill// /\#}${_empty// //-}] ${_progress}%%"
 	}
+
+	find /opt/breach-parse/BreachCompilation/data -type f -print0 | while read -d $'\0' file
+
+	do
+		grep -a -E "$1" "$file" >> $master
+		((++file_Count))
+		ProgressBar ${number} ${total_Files}
+	done
+fi
